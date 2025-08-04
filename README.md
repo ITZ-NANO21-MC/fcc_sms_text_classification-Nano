@@ -1,5 +1,3 @@
-# fcc_sms_text_classification-Nano
-
 # Clasificador de SMS Spam con LSTM
 
 Este proyecto implementa un modelo de aprendizaje profundo para clasificar mensajes SMS como spam o ham (no spam) utilizando una red neuronal con capas LSTM bidireccionales.
