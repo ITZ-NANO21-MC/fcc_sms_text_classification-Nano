@@ -41,7 +41,7 @@ pip install tensorflow pandas numpy matplotlib scikit-learn
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/ITZ-NANO21-MC/fcc_sms_text_classification-Nano
+git clone https://github.com/ITZ-NANO21-MC/fcc_sms_text_classification-Nano.git
 cd clasificador-spam-sms
 ```
 
