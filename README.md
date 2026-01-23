@@ -42,7 +42,8 @@ pip install tensorflow pandas numpy matplotlib scikit-learn
 1. Clona el repositorio:
 ```bash
 git clone https://github.com/ITZ-NANO21-MC/fcc_sms_text_classification-Nano.git
-cd clasificador-spam-sms
+cd fcc_sms_text_classification-Nano
+
 ```
 
 2. Ejecuta el cuaderno de Jupyter:
@@ -101,7 +102,8 @@ for msg in mensajes_prueba:
 
 ## Estructura del proyecto
 ```
-sms-spam-classifier/
+
+fcc_sms_text_classification-Nano/
 ├── fcc_sms_text_classification.ipynb  # Cuaderno principal
 ├── train-data.tsv                     # Datos de entrenamiento
 ├── valid-data.tsv                     # Datos de validación
