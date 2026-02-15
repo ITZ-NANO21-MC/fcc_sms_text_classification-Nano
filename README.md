@@ -51,7 +51,12 @@ cd fcc_sms_text_classification-Nano
 jupyter notebook fcc_sms_text_classification.ipynb
 ```
 
-3. Ejecuta las celdas en orden
+O ejecuta el script de Python directamente:
+```bash
+python fcc_sms_text_classification.py
+```
+
+3. El script descargará automáticamente los datos y entrenará el modelo.
 
 ## Funcionalidad clave
 
@@ -104,7 +109,8 @@ for msg in mensajes_prueba:
 ```
 
 fcc_sms_text_classification-Nano/
-├── fcc_sms_text_classification.ipynb  # Cuaderno principal
+├── fcc_sms_text_classification.ipynb  # Cuaderno principal (Jupyter)
+├── fcc_sms_text_classification.py     # Script principal (Python)
 ├── train-data.tsv                     # Datos de entrenamiento
 ├── valid-data.tsv                     # Datos de validación
 └── README.md                          # Este archivo
